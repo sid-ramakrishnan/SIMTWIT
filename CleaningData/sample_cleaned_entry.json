@@ -1,0 +1,11 @@
+{
+    "_id" : ObjectId("54c14f75115c7d09f3394c62"),
+    "retweet_count" : 2,
+    "screen_name" : [ 
+        "sharmaankur001", 
+        "rozzmarrie"
+    ],
+    "text" : "RT @rozzmarrie: Bharatiya Mazdoor Sangh slams u2018Make in Indiau2019 campaign. It's now clear, Modi govt. is only for 'Crony Capitalist'.nhttp://tu2026",
+    "urls" : "http://timesofindia.indiatimes.com/business/india-business/Bharatiya-Mazdoor-Sangh-slams-Make-in-India-campaign/articleshow/45934556.cms",
+    "favorite_count" : 0
+}

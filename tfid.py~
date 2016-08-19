@@ -1,0 +1,85 @@
+# -*- coding: utf-8 -*-
+"""
+Spyder Editor
+HI ,temporary comment
+This temporary script file is located here:
+/home/p/.spyder2/.temp.py
+"""
+import pymongo
+import json
+from pprint import pprint
+from sets import Set
+import numpy as np
+from pymongo import MongoClient
+client = MongoClient()
+client = MongoClient('localhost', 27017)
+db = client.MinorProject
+userfeat = db.user_features
+val = userfeat.find()
+
+documents = []
+
+<<<<<<< HEAD
+for x in range(0,val.count()):
+=======
+
+for x in range(0,10):
+>>>>>>> a48ad49ae7f4b15eb4d1f27243bdb3c5d1560880
+    documents.append((val[x]['feature_list'])) # collect list of unique words note that 
+                                                  # word count is lost   
+
+from gensim import corpora, models, similarities
+  
+dictionary = corpora.Dictionary(documents)
+corpus = [dictionary.doc2bow(text) for text in documents]
+
+tfid = models.TfidfModel(corpus)
+
+index = similarities.SparseMatrixSimilarity(tfid[corpus], num_features=len(dictionary))
+
+valuesalone = index[tfid[corpus]]  # Similarity matrix
+
+
+covmat = np.cov(valuesalone)    # Standard NumPy function used to compute covariance
+<<<<<<< HEAD
+eig_val_cov, eig_vec_cov = np.linalg.eig(covmat)
+=======
+>>>>>>> a48ad49ae7f4b15eb4d1f27243bdb3c5d1560880
+
+covmat2 = covmat
+dim = covmat.shape
+
+for x in range(0,dim[1]):
+    for y in range(0,dim[1]):
+        if(covmat[x][y] < 0):
+            covmat2[x][y] = 0
+            print(x,y)
+           
+eig_val_cov, eig_vec_cov = np.linalg.eig(covmat2)
+
+eig_val_covs = sum(eig_val_cov)
+
+eig_val_cov = [ e / eig_val_covs for e in eig_val_cov]
+
+eig_pairs = [(np.abs(eig_val_cov[i]),eig_vec_cov[:,i]) for i in range(len(eig_val_cov))]
+
+eig_pairs.sort()
+eig_pairs.reverse()
+
+# Reduce to 2 dimensions
+
+matrix_w=np.hstack((eig_pairs[0][1].reshape(val.count(),1),eig_pairs[1][1].reshape(val.count(),1)))
+
+
+temp=np.mat(valuesalone)*np.mat(matrix_w)
+
+'''dist=[[0 for x in range(10)] for x in range(10)]
+
+for i in range(0,10):
+    for j in range(0,10):
+        dist[i][j]=np.linalg.norm(matrix_w[i] - matrix_w[j])        
+<<<<<<< HEAD
+'''
+=======
+'''
+>>>>>>> a48ad49ae7f4b15eb4d1f27243bdb3c5d1560880

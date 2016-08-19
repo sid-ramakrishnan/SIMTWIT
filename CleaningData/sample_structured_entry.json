@@ -1,0 +1,637 @@
+/* 0 */
+{
+    "_id" : ObjectId("54bd385a115c7d0eafaea991"),
+    "py/object" : "tweepy.models.Status",
+    "py/state" : {
+        "contributors" : null,
+        "truncated" : false,
+        "_json" : {
+            "contributors" : null,
+            "truncated" : false,
+            "text" : "RT @rozzmarrie: Bharatiya Mazdoor Sangh slams u2018Make in Indiau2019 campaign. It's now clear, Modi govt. is only for 'Crony Capitalist'.nhttp://tu2026",
+            "in_reply_to_status_id" : null,
+            "in_reply_to_user_id" : null,
+            "id" : NumberLong(557145958027251712),
+            "favorite_count" : 0,
+            "source" : "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "retweeted" : false,
+            "coordinates" : null,
+            "entities" : {
+                "symbols" : [],
+                "user_mentions" : [ 
+                    {
+                        "indices" : [ 
+                            3, 
+                            14
+                        ],
+                        "id_str" : "2835409934",
+                        "screen_name" : "rozzmarrie",
+                        "name" : "Rozz Marrie",
+                        "id" : NumberLong(2835409934)
+                    }
+                ],
+                "hashtags" : [],
+                "urls" : [ 
+                    {
+                        "indices" : [ 
+                            139, 
+                            140
+                        ],
+                        "url" : "http://t.co/j7zRiPcetx",
+                        "expanded_url" : "http://timesofindia.indiatimes.com/business/india-business/Bharatiya-Mazdoor-Sangh-slams-Make-in-India-campaign/articleshow/45934556.cms",
+                        "display_url" : "timesofindia.indiatimes.com/business/indiau2026"
+                    }
+                ]
+            },
+            "in_reply_to_screen_name" : null,
+            "id_str" : "557145958027251712",
+            "retweet_count" : 2,
+            "metadata" : {
+                "iso_language_code" : "en",
+                "result_type" : "recent"
+            },
+            "favorited" : false,
+            "retweeted_status" : {
+                "contributors" : null,
+                "truncated" : false,
+                "text" : "Bharatiya Mazdoor Sangh slams u2018Make in Indiau2019 campaign. It's now clear, Modi govt. is only for 'Crony Capitalist'.nhttp://t.co/j7zRiPcetx",
+                "in_reply_to_status_id" : null,
+                "in_reply_to_user_id" : null,
+                "id" : NumberLong(557144640583766016),
+                "favorite_count" : 0,
+                "source" : "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+                "retweeted" : false,
+                "coordinates" : null,
+                "entities" : {
+                    "symbols" : [],
+                    "user_mentions" : [],
+                    "hashtags" : [],
+                    "urls" : [ 
+                        {
+                            "indices" : [ 
+                                115, 
+                                137
+                            ],
+                            "url" : "http://t.co/j7zRiPcetx",
+                            "expanded_url" : "http://timesofindia.indiatimes.com/business/india-business/Bharatiya-Mazdoor-Sangh-slams-Make-in-India-campaign/articleshow/45934556.cms",
+                            "display_url" : "timesofindia.indiatimes.com/business/indiau2026"
+                        }
+                    ]
+                },
+                "in_reply_to_screen_name" : null,
+                "id_str" : "557144640583766016",
+                "retweet_count" : 2,
+                "metadata" : {
+                    "iso_language_code" : "en",
+                    "result_type" : "recent"
+                },
+                "favorited" : false,
+                "user" : {
+                    "follow_request_sent" : null,
+                    "profile_use_background_image" : true,
+                    "profile_text_color" : "333333",
+                    "id" : NumberLong(2835409934),
+                    "verified" : false,
+                    "profile_location" : null,
+                    "profile_image_url_https" : "https://pbs.twimg.com/profile_images/541209799040303104/xfx-_o9p_normal.jpeg",
+                    "profile_sidebar_fill_color" : "DDEEF6",
+                    "is_translator" : false,
+                    "geo_enabled" : false,
+                    "entities" : {
+                        "description" : {
+                            "urls" : []
+                        }
+                    },
+                    "followers_count" : 252,
+                    "profile_sidebar_border_color" : "C0DEED",
+                    "id_str" : "2835409934",
+                    "default_profile_image" : false,
+                    "location" : "Mumbai",
+                    "is_translation_enabled" : false,
+                    "utc_offset" : null,
+                    "statuses_count" : 570,
+                    "description" : "A Freelancer Columnist and Writer",
+                    "friends_count" : 27,
+                    "profile_link_color" : "0084B4",
+                    "profile_image_url" : "http://pbs.twimg.com/profile_images/541209799040303104/xfx-_o9p_normal.jpeg",
+                    "notifications" : null,
+                    "profile_background_image_url_https" : "https://abs.twimg.com/images/themes/theme1/bg.png",
+                    "profile_background_color" : "C0DEED",
+                    "profile_background_image_url" : "http://abs.twimg.com/images/themes/theme1/bg.png",
+                    "name" : "Rozz Marrie",
+                    "lang" : "en",
+                    "profile_background_tile" : false,
+                    "favourites_count" : 3,
+                    "screen_name" : "rozzmarrie",
+                    "url" : null,
+                    "created_at" : "Mon Sep 29 00:50:43 +0000 2014",
+                    "contributors_enabled" : false,
+                    "time_zone" : null,
+                    "protected" : false,
+                    "default_profile" : true,
+                    "following" : null,
+                    "listed_count" : 3
+                },
+                "geo" : null,
+                "in_reply_to_user_id_str" : null,
+                "possibly_sensitive" : false,
+                "lang" : "en",
+                "created_at" : "Mon Jan 19 11:56:48 +0000 2015",
+                "in_reply_to_status_id_str" : null,
+                "place" : null
+            },
+            "user" : {
+                "follow_request_sent" : null,
+                "profile_use_background_image" : true,
+                "profile_text_color" : "333333",
+                "id" : NumberLong(2834179428),
+                "verified" : false,
+                "profile_location" : null,
+                "profile_image_url_https" : "https://pbs.twimg.com/profile_images/543648667580653568/-fnvLVHI_normal.jpeg",
+                "profile_sidebar_fill_color" : "DDEEF6",
+                "is_translator" : false,
+                "geo_enabled" : false,
+                "entities" : {
+                    "url" : {
+                        "urls" : [ 
+                            {
+                                "indices" : [ 
+                                    0, 
+                                    23
+                                ],
+                                "url" : "https://t.co/0WaiL7v1vC",
+                                "expanded_url" : "https://twitter.com/sharmaankur001",
+                                "display_url" : "twitter.com/sharmaankur001"
+                            }
+                        ]
+                    },
+                    "description" : {
+                        "urls" : []
+                    }
+                },
+                "followers_count" : 74,
+                "profile_sidebar_border_color" : "C0DEED",
+                "id_str" : "2834179428",
+                "default_profile_image" : false,
+                "location" : "kolkata, India",
+                "is_translation_enabled" : false,
+                "utc_offset" : null,
+                "statuses_count" : 2011,
+                "description" : "Join me for 'Political Juice' with a platter of 'Paneer Pataka' and a peg of 'Royal Salute'.",
+                "friends_count" : 30,
+                "profile_link_color" : "0084B4",
+                "profile_image_url" : "http://pbs.twimg.com/profile_images/543648667580653568/-fnvLVHI_normal.jpeg",
+                "notifications" : null,
+                "profile_background_image_url_https" : "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_color" : "C0DEED",
+                "profile_background_image_url" : "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "name" : "Ankur Sharma",
+                "lang" : "en",
+                "profile_background_tile" : false,
+                "favourites_count" : 297,
+                "screen_name" : "sharmaankur001",
+                "url" : "https://t.co/0WaiL7v1vC",
+                "created_at" : "Sat Sep 27 16:35:59 +0000 2014",
+                "contributors_enabled" : false,
+                "time_zone" : null,
+                "protected" : false,
+                "default_profile" : true,
+                "following" : null,
+                "listed_count" : 2
+            },
+            "geo" : null,
+            "in_reply_to_user_id_str" : null,
+            "possibly_sensitive" : false,
+            "lang" : "en",
+            "created_at" : "Mon Jan 19 12:02:02 +0000 2015",
+            "in_reply_to_status_id_str" : null,
+            "place" : null
+        },
+        "in_reply_to_status_id" : null,
+        "id" : NumberLong(557145958027251712),
+        "favorite_count" : 0,
+        "author" : {
+            "py/object" : "tweepy.models.User",
+            "py/state" : {
+                "follow_request_sent" : null,
+                "profile_use_background_image" : true,
+                "profile_sidebar_fill_color" : "DDEEF6",
+                "id" : NumberLong(2834179428),
+                "verified" : false,
+                "profile_location" : null,
+                "profile_image_url_https" : "https://pbs.twimg.com/profile_images/543648667580653568/-fnvLVHI_normal.jpeg",
+                "_json" : {
+                    "follow_request_sent" : null,
+                    "profile_use_background_image" : true,
+                    "profile_text_color" : "333333",
+                    "id" : NumberLong(2834179428),
+                    "verified" : false,
+                    "profile_location" : null,
+                    "profile_image_url_https" : "https://pbs.twimg.com/profile_images/543648667580653568/-fnvLVHI_normal.jpeg",
+                    "profile_sidebar_fill_color" : "DDEEF6",
+                    "is_translator" : false,
+                    "geo_enabled" : false,
+                    "entities" : {
+                        "url" : {
+                            "urls" : {
+                                "py/id" : 15
+                            }
+                        },
+                        "description" : {
+                            "urls" : {
+                                "py/id" : 14
+                            }
+                        }
+                    },
+                    "followers_count" : 74,
+                    "profile_sidebar_border_color" : "C0DEED",
+                    "id_str" : "2834179428",
+                    "default_profile_image" : false,
+                    "location" : "kolkata, India",
+                    "is_translation_enabled" : false,
+                    "utc_offset" : null,
+                    "statuses_count" : 2011,
+                    "description" : "Join me for 'Political Juice' with a platter of 'Paneer Pataka' and a peg of 'Royal Salute'.",
+                    "friends_count" : 30,
+                    "profile_link_color" : "0084B4",
+                    "profile_image_url" : "http://pbs.twimg.com/profile_images/543648667580653568/-fnvLVHI_normal.jpeg",
+                    "notifications" : null,
+                    "profile_background_image_url_https" : "https://abs.twimg.com/images/themes/theme1/bg.png",
+                    "profile_background_color" : "C0DEED",
+                    "profile_background_image_url" : "http://abs.twimg.com/images/themes/theme1/bg.png",
+                    "name" : "Ankur Sharma",
+                    "lang" : "en",
+                    "profile_background_tile" : false,
+                    "favourites_count" : 297,
+                    "screen_name" : "sharmaankur001",
+                    "url" : "https://t.co/0WaiL7v1vC",
+                    "created_at" : "Sat Sep 27 16:35:59 +0000 2014",
+                    "contributors_enabled" : false,
+                    "time_zone" : null,
+                    "protected" : false,
+                    "default_profile" : true,
+                    "following" : null,
+                    "listed_count" : 2
+                },
+                "is_translator" : false,
+                "geo_enabled" : false,
+                "entities" : {
+                    "url" : {
+                        "urls" : {
+                            "py/id" : 15
+                        }
+                    },
+                    "description" : {
+                        "urls" : {
+                            "py/id" : 14
+                        }
+                    }
+                },
+                "followers_count" : 74,
+                "profile_sidebar_border_color" : "C0DEED",
+                "location" : "kolkata, India",
+                "default_profile_image" : false,
+                "id_str" : "2834179428",
+                "is_translation_enabled" : false,
+                "utc_offset" : null,
+                "statuses_count" : 2011,
+                "description" : "Join me for 'Political Juice' with a platter of 'Paneer Pataka' and a peg of 'Royal Salute'.",
+                "friends_count" : 30,
+                "profile_link_color" : "0084B4",
+                "profile_image_url" : "http://pbs.twimg.com/profile_images/543648667580653568/-fnvLVHI_normal.jpeg",
+                "notifications" : null,
+                "profile_background_image_url_https" : "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_color" : "C0DEED",
+                "profile_background_image_url" : "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "name" : "Ankur Sharma",
+                "lang" : "en",
+                "profile_background_tile" : false,
+                "favourites_count" : 297,
+                "screen_name" : "sharmaankur001",
+                "url" : "https://t.co/0WaiL7v1vC",
+                "profile_text_color" : "333333",
+                "created_at" : {
+                    "py/object" : "datetime.datetime",
+                    "__reduce__" : [ 
+                        {
+                            "py/type" : "datetime.datetime"
+                        }, 
+                        [ 
+                            "B94JGxAjOwAAAA=="
+                        ]
+                    ]
+                },
+                "contributors_enabled" : false,
+                "time_zone" : null,
+                "protected" : false,
+                "default_profile" : true,
+                "following" : false,
+                "listed_count" : 2
+            }
+        },
+        "retweeted" : false,
+        "coordinates" : null,
+        "entities" : {
+            "symbols" : {
+                "py/id" : 3
+            },
+            "user_mentions" : {
+                "py/id" : 6
+            },
+            "hashtags" : {
+                "py/id" : 2
+            },
+            "urls" : {
+                "py/id" : 4
+            }
+        },
+        "id_str" : "557145958027251712",
+        "in_reply_to_screen_name" : null,
+        "in_reply_to_user_id" : null,
+        "text" : "RT @rozzmarrie: Bharatiya Mazdoor Sangh slams u2018Make in Indiau2019 campaign. It's now clear, Modi govt. is only for 'Crony Capitalist'.nhttp://tu2026",
+        "retweet_count" : 2,
+        "metadata" : {
+            "iso_language_code" : "en",
+            "result_type" : "recent"
+        },
+        "favorited" : false,
+        "retweeted_status" : {
+            "py/object" : "tweepy.models.Status",
+            "py/state" : {
+                "contributors" : null,
+                "truncated" : false,
+                "_json" : {
+                    "contributors" : null,
+                    "truncated" : false,
+                    "text" : "Bharatiya Mazdoor Sangh slams u2018Make in Indiau2019 campaign. It's now clear, Modi govt. is only for 'Crony Capitalist'.nhttp://t.co/j7zRiPcetx",
+                    "in_reply_to_status_id" : null,
+                    "in_reply_to_user_id" : null,
+                    "id" : NumberLong(557144640583766016),
+                    "favorite_count" : 0,
+                    "source" : "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+                    "retweeted" : false,
+                    "coordinates" : null,
+                    "entities" : {
+                        "symbols" : {
+                            "py/id" : 9
+                        },
+                        "user_mentions" : {
+                            "py/id" : 12
+                        },
+                        "hashtags" : {
+                            "py/id" : 8
+                        },
+                        "urls" : {
+                            "py/id" : 10
+                        }
+                    },
+                    "in_reply_to_screen_name" : null,
+                    "id_str" : "557144640583766016",
+                    "retweet_count" : 2,
+                    "metadata" : {
+                        "iso_language_code" : "en",
+                        "result_type" : "recent"
+                    },
+                    "favorited" : false,
+                    "user" : {
+                        "follow_request_sent" : null,
+                        "profile_use_background_image" : true,
+                        "profile_text_color" : "333333",
+                        "id" : NumberLong(2835409934),
+                        "verified" : false,
+                        "profile_location" : null,
+                        "profile_image_url_https" : "https://pbs.twimg.com/profile_images/541209799040303104/xfx-_o9p_normal.jpeg",
+                        "profile_sidebar_fill_color" : "DDEEF6",
+                        "is_translator" : false,
+                        "geo_enabled" : false,
+                        "entities" : {
+                            "description" : {
+                                "urls" : {
+                                    "py/id" : 13
+                                }
+                            }
+                        },
+                        "followers_count" : 252,
+                        "profile_sidebar_border_color" : "C0DEED",
+                        "id_str" : "2835409934",
+                        "default_profile_image" : false,
+                        "location" : "Mumbai",
+                        "is_translation_enabled" : false,
+                        "utc_offset" : null,
+                        "statuses_count" : 570,
+                        "description" : "A Freelancer Columnist and Writer",
+                        "friends_count" : 27,
+                        "profile_link_color" : "0084B4",
+                        "profile_image_url" : "http://pbs.twimg.com/profile_images/541209799040303104/xfx-_o9p_normal.jpeg",
+                        "notifications" : null,
+                        "profile_background_image_url_https" : "https://abs.twimg.com/images/themes/theme1/bg.png",
+                        "profile_background_color" : "C0DEED",
+                        "profile_background_image_url" : "http://abs.twimg.com/images/themes/theme1/bg.png",
+                        "name" : "Rozz Marrie",
+                        "lang" : "en",
+                        "profile_background_tile" : false,
+                        "favourites_count" : 3,
+                        "screen_name" : "rozzmarrie",
+                        "url" : null,
+                        "created_at" : "Mon Sep 29 00:50:43 +0000 2014",
+                        "contributors_enabled" : false,
+                        "time_zone" : null,
+                        "protected" : false,
+                        "default_profile" : true,
+                        "following" : null,
+                        "listed_count" : 3
+                    },
+                    "geo" : null,
+                    "in_reply_to_user_id_str" : null,
+                    "possibly_sensitive" : false,
+                    "lang" : "en",
+                    "created_at" : "Mon Jan 19 11:56:48 +0000 2015",
+                    "in_reply_to_status_id_str" : null,
+                    "place" : null
+                },
+                "in_reply_to_status_id" : null,
+                "id" : NumberLong(557144640583766016),
+                "favorite_count" : 0,
+                "author" : {
+                    "py/object" : "tweepy.models.User",
+                    "py/state" : {
+                        "follow_request_sent" : null,
+                        "profile_use_background_image" : true,
+                        "profile_sidebar_fill_color" : "DDEEF6",
+                        "id" : NumberLong(2835409934),
+                        "verified" : false,
+                        "profile_location" : null,
+                        "profile_image_url_https" : "https://pbs.twimg.com/profile_images/541209799040303104/xfx-_o9p_normal.jpeg",
+                        "_json" : {
+                            "follow_request_sent" : null,
+                            "profile_use_background_image" : true,
+                            "profile_text_color" : "333333",
+                            "id" : NumberLong(2835409934),
+                            "verified" : false,
+                            "profile_location" : null,
+                            "profile_image_url_https" : "https://pbs.twimg.com/profile_images/541209799040303104/xfx-_o9p_normal.jpeg",
+                            "profile_sidebar_fill_color" : "DDEEF6",
+                            "is_translator" : false,
+                            "geo_enabled" : false,
+                            "entities" : {
+                                "description" : {
+                                    "urls" : {
+                                        "py/id" : 13
+                                    }
+                                }
+                            },
+                            "followers_count" : 252,
+                            "profile_sidebar_border_color" : "C0DEED",
+                            "id_str" : "2835409934",
+                            "default_profile_image" : false,
+                            "location" : "Mumbai",
+                            "is_translation_enabled" : false,
+                            "utc_offset" : null,
+                            "statuses_count" : 570,
+                            "description" : "A Freelancer Columnist and Writer",
+                            "friends_count" : 27,
+                            "profile_link_color" : "0084B4",
+                            "profile_image_url" : "http://pbs.twimg.com/profile_images/541209799040303104/xfx-_o9p_normal.jpeg",
+                            "notifications" : null,
+                            "profile_background_image_url_https" : "https://abs.twimg.com/images/themes/theme1/bg.png",
+                            "profile_background_color" : "C0DEED",
+                            "profile_background_image_url" : "http://abs.twimg.com/images/themes/theme1/bg.png",
+                            "name" : "Rozz Marrie",
+                            "lang" : "en",
+                            "profile_background_tile" : false,
+                            "favourites_count" : 3,
+                            "screen_name" : "rozzmarrie",
+                            "url" : null,
+                            "created_at" : "Mon Sep 29 00:50:43 +0000 2014",
+                            "contributors_enabled" : false,
+                            "time_zone" : null,
+                            "protected" : false,
+                            "default_profile" : true,
+                            "following" : null,
+                            "listed_count" : 3
+                        },
+                        "is_translator" : false,
+                        "geo_enabled" : false,
+                        "entities" : {
+                            "description" : {
+                                "urls" : {
+                                    "py/id" : 13
+                                }
+                            }
+                        },
+                        "followers_count" : 252,
+                        "profile_sidebar_border_color" : "C0DEED",
+                        "location" : "Mumbai",
+                        "default_profile_image" : false,
+                        "id_str" : "2835409934",
+                        "is_translation_enabled" : false,
+                        "utc_offset" : null,
+                        "statuses_count" : 570,
+                        "description" : "A Freelancer Columnist and Writer",
+                        "friends_count" : 27,
+                        "profile_link_color" : "0084B4",
+                        "profile_image_url" : "http://pbs.twimg.com/profile_images/541209799040303104/xfx-_o9p_normal.jpeg",
+                        "notifications" : null,
+                        "profile_background_image_url_https" : "https://abs.twimg.com/images/themes/theme1/bg.png",
+                        "profile_background_color" : "C0DEED",
+                        "profile_background_image_url" : "http://abs.twimg.com/images/themes/theme1/bg.png",
+                        "name" : "Rozz Marrie",
+                        "lang" : "en",
+                        "profile_background_tile" : false,
+                        "favourites_count" : 3,
+                        "screen_name" : "rozzmarrie",
+                        "url" : null,
+                        "profile_text_color" : "333333",
+                        "created_at" : {
+                            "py/object" : "datetime.datetime",
+                            "__reduce__" : [ 
+                                {
+                                    "py/type" : "datetime.datetime"
+                                }, 
+                                [ 
+                                    "B94JHQAyKwAAAA=="
+                                ]
+                            ]
+                        },
+                        "contributors_enabled" : false,
+                        "time_zone" : null,
+                        "protected" : false,
+                        "default_profile" : true,
+                        "following" : false,
+                        "listed_count" : 3
+                    }
+                },
+                "retweeted" : false,
+                "coordinates" : null,
+                "entities" : {
+                    "symbols" : {
+                        "py/id" : 9
+                    },
+                    "user_mentions" : {
+                        "py/id" : 12
+                    },
+                    "hashtags" : {
+                        "py/id" : 8
+                    },
+                    "urls" : {
+                        "py/id" : 10
+                    }
+                },
+                "id_str" : "557144640583766016",
+                "in_reply_to_screen_name" : null,
+                "in_reply_to_user_id" : null,
+                "text" : "Bharatiya Mazdoor Sangh slams u2018Make in Indiau2019 campaign. It's now clear, Modi govt. is only for 'Crony Capitalist'.nhttp://t.co/j7zRiPcetx",
+                "retweet_count" : 2,
+                "metadata" : {
+                    "iso_language_code" : "en",
+                    "result_type" : "recent"
+                },
+                "favorited" : false,
+                "source_url" : "http://twitter.com",
+                "user" : {
+                    "py/id" : 21
+                },
+                "geo" : null,
+                "in_reply_to_user_id_str" : null,
+                "possibly_sensitive" : false,
+                "lang" : "en",
+                "created_at" : {
+                    "py/object" : "datetime.datetime",
+                    "__reduce__" : [ 
+                        {
+                            "py/type" : "datetime.datetime"
+                        }, 
+                        [ 
+                            "B98BEws4MAAAAA=="
+                        ]
+                    ]
+                },
+                "in_reply_to_status_id_str" : null,
+                "place" : null,
+                "source" : "Twitter Web Client"
+            }
+        },
+        "source_url" : "http://twitter.com",
+        "user" : {
+            "py/id" : 17
+        },
+        "geo" : null,
+        "in_reply_to_user_id_str" : null,
+        "possibly_sensitive" : false,
+        "lang" : "en",
+        "created_at" : {
+            "py/object" : "datetime.datetime",
+            "__reduce__" : [ 
+                {
+                    "py/type" : "datetime.datetime"
+                }, 
+                [ 
+                    "B98BEwwCAgAAAA=="
+                ]
+            ]
+        },
+        "in_reply_to_status_id_str" : null,
+        "place" : null,
+        "source" : "Twitter Web Client"
+    }
+}
